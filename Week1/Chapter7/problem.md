@@ -4,9 +4,9 @@
 
 ```js
 console.log(typeof '100')          // string
-console.log(typeof 1.[   ]('100'))    // Number
-console.log(typeof 2.[   ]('100'))    // Number
-console.log(typeof 3.[   ]'100')      // Number
+console.log(typeof 1.[    ]('100'))    // Number
+console.log(typeof 2.[    ]('100'))    // Number
+console.log(typeof 3.[    ]'100')      // Number
 ```
 
    <details>

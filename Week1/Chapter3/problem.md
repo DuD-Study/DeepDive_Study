@@ -1,6 +1,6 @@
 # Chapter 3 
 
-<pre>1. Node.js 는 [      ]으로 빌드된 자바스크립트 런타임 환경이다. 
+<pre>1. Node.js 는 [       ]으로 빌드된 자바스크립트 런타임 환경이다. 
 </pre>
 
    <details>

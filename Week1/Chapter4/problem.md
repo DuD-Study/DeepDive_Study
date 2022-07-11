@@ -57,7 +57,7 @@
 
 <details>
    <summary>Solution</summary>
-   camel case = helloWorld
-   snake case = hello_world
-   pascal case = HelloWorld
+   camel case = helloWorld<br>
+   snake case = hello_world<br>
+   pascal case = HelloWorld<br>
 </details> 

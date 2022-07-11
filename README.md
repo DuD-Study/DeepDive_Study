@@ -1,4 +1,9 @@
-# 🙇‍♀️ DeepDive_Study 🙇‍ 
+<h1 align="center"> 🙇‍♀️ DeepDive_Study 🙇‍  </h1>
+
+
+<p align="center">
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F82e4Y%2FbtrG3Jwb1v1%2Fq7gFbkrSPwfml9RMkFakbK%2Fimg.png" width=800px>
+</p>
 
 <br>
 

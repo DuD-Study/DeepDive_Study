@@ -26,3 +26,12 @@
 <br>
 <br>
 
+<pre>3. 개발자 도구에서 로딩된 웹페이지의 에러를 확인하거나 자바스크립트 소스코드에 작성한 console.log 메서드의 실행 결과를<br>확인할 수 있는 개발자 도구의 이름은? [       ]
+</pre>
+
+   <details>
+      <summary>Solution</summary>
+        <strong>Console 패널</strong>
+        
+   </details> 
+

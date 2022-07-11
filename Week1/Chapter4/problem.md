@@ -11,11 +11,6 @@
    </details> 
 
 <br>
-<br>
-<br>
-
-
-
 
 <pre>2. 변수에 값을 할당하지 않으면 어떤 값이 할당되는가?
 </pre>
@@ -27,8 +22,6 @@
 
 
 <br>
-<br>
-<br>
 
 <pre>3. 호이스팅의 의미를 설명하시오.</pre>
 
@@ -38,9 +31,7 @@
    </details> 
    
 <br>
-<br>
-<br>
-   
+
 <pre>4. 선언과 할당의 실행시점의 차이를 설명하시오.</pre>
 
 
@@ -50,8 +41,7 @@
    </details> 
    
 <br>
-<br>
-<br>
+
    
 <pre>5. Hello World를 camel case, snake case, pascal case를 이용하여 표현하시오.</pre>
 
@@ -61,3 +51,24 @@
    snake case = hello_world<br>
    pascal case = HelloWorld<br>
 </details> 
+
+<br>
+
+<pre>6. 변수 선언하는 3가지 방법은?  </pre>
+
+
+   <details>
+      <summary>Solution</summary>
+      <strong> var, let, const</strong>
+   </details> 
+
+<br>
+<pre>7. 값을 재할당할 수 있는건 [    ] 저장된 값을 변경할 수 없으면 [    ]  </pre>
+
+
+   <details>
+      <summary>Solution</summary>
+      <strong> 변수,  상수</strong>
+   </details> 
+
+

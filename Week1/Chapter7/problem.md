@@ -48,3 +48,57 @@ console.log(5=='5')        // true
       <summary>Solution</summary>
         <strong>동등 비교 연산자는 비교할때 먼저 암묵적 타입 변환을 통해 타입을 일치시키고 값을 비교한다.<br>하지만 일치 비교 연산자는 암묵적 타입 변환을 하지않고 비교를 한다. </strong>
    </details> 
+<br>
+<pre>4. 아래 코드의 결과값은? </pre>
+
+```js
+var x = 10, result;
+
+result = x++;
+console.log(result, x); 
+result = ++x;   
+console.log(result, x);
+result = x--;      
+console.log(result, x); 
+result = --x;
+console.log(result, x);            
+```
+
+   <details>
+      <summary>Solution</summary>
+        <strong>1. 10, 11 선할당 후증가 <br>
+        2. 12, 12 선증가 후할당 <br>
+        3. 12, 11 선할당 후감소 <br>
+        4. 10, 10 선감소 후할당 </strong>
+   </details> 
+   <br>
+<pre>5. 아래 코드의 결과값은? </pre>
+
+```js
+var x;
+x = 10;
+x *= 5
+console.log(x)
+```
+
+   <details>
+      <summary>Solution</summary>
+        <strong> x = 50  &nbsp//&nbsp x = x * 5 </strong>
+   </details> 
+   <br>
+
+<pre>6. 아래 코드를 삼항 조건 연산자로 바꿔보시오 </pre>
+
+```js
+if (score >= 60){
+   result = "합격"
+} else {
+   result = "불합격"
+}
+```
+
+   <details>
+      <summary>Solution</summary>
+        <strong> var result = score >= 60 ? "합격" : "불합격"</strong>
+   </details> 
+   

@@ -43,7 +43,7 @@
 
 <br>
 
-<pre>4. var 키워드로 선언된 변수에 암묵적으로 할당되는 값은? </pre>
+<pre>4. 모든 변수에 암묵적으로 할당되는 값은? </pre>
 
    <details>
       <summary>Solution</summary>

@@ -39,4 +39,22 @@
    <details>
       <summary>Solution</summary>
         <strong>변수, 스코프(유효범위), 전역변수, 상수, 네이밍</strong>
+   </details>
+
+<br>
+
+<pre>4. var 키워드로 선언된 변수에 암묵적으로 할당되는 값은? </pre>
+
+   <details>
+      <summary>Solution</summary>
+        <strong>Undefined</strong>
+   </details> 
+
+<br>
+
+<pre>5. 표현식을 삽입하는 방법은? </pre>
+
+   <details>
+      <summary>Solution</summary>
+        <strong> 템플릿 리터럴 내에서 ${} 으로 감싼다</strong>
    </details> 

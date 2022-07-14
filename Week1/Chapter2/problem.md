@@ -1,4 +1,4 @@
-# Chapter 2 
+# Chapter 2
 
 <pre>1. 자사 브라우저의 시장 점유율을 점유하기 위해 자사 브라우저에서만 동작하는 기능을 경쟁적으로 추가하기 시작했는데,<br>이로 인해 브라우저에 따라 웹 페이지가 정상적으로 동작하지 않는 [     ] 이슈가 발생하였다. 
 </pre>
@@ -7,10 +7,9 @@
       <summary>Solution</summary>
         <strong>크로스 브라우징</strong>: 웹 표준 기술을 채용하여 다른 기종/플랫폼에 따라 구현되는 기술을 비슷하게 만듬과 동시에 어느 한쪽에 최적화되어 치우치지 않도록 공통요소를 사용하여 웹페이지를 제작하는 기법
         
-   </details> 
+   </details>
 
 <br>
-
 
 <pre>2. 자바스크립트는 웹은 물론 모바일 <strong>하이브리드 앱, 서버사이드, 데스크톱, 머신러닝, 로보틱스</strong> 프로그래밍 언어로서 <br>세계에서 [     ]를 위한 가장 중요한 언어로 주목 받고 있다. 
 </pre>
@@ -19,7 +18,7 @@
       <summary>Solution</summary>
         <strong>크로스 플랫폼</strong>: 둘 이상의 플랫폼에서 실행 가능한 소프트웨어라는 것을 뜻하는 용어
         
-   </details> 
+   </details>
 
 <br>
 
@@ -30,7 +29,7 @@
       <summary>Solution</summary>
         <strong>Babel</strong>: 자바스크립트 컴파일러입니다. % 참고블로그 - https://devowen.com/293<br>
         <strong>Webpack</strong>: 웹에서 사용되는 모든 자원(assets)을 번들링 해주는 도구. % 참고 블로그 - https://codermun-log.tistory.com/m/436
-   </details> 
+   </details>
 
 <br>
 <pre>4. 자바스크립트를 이용해 서버와 브라우저가 비동기 방식으로 데이터를 교환할 수 있는 통신 기능은? [     ]
@@ -52,4 +51,36 @@
    <details>
       <summary>Solution</summary>
         <strong>Node.js</strong>: V8으로 빌드된 이벤트 기반 자바스크립트 런타임이다. 웹 서버와 같이 확장성 있는 네트워크 프로그램 제작을 위해 고안되었다. <br>
-   </details> 
+   </details>
+
+   <br>
+
+   <pre>7. [   ]이란 HTML, CSS, 자바스크립트로 작성된 문서를 해석해서 브라우저에게 전달하는 과정(SSR; Server Side Rendering)을 가리키기도 합니다.
+</pre>
+
+<details>
+   <summary>Solution</summary>
+      <strong>렌더링</strong>
+</details>
+
+<br>
+
+<pre>8. [  ]는 자바스크립트를 이용해 서버와 브라우저가 비동기 방식으로 데이터를 교환할 수 있는 통신 기능으로 XMLHttpRequest라는 이름으로 등장했으며,<br> 이것의 등장으로 서버로부터 필요한 데이터만 전송받아 변경해야 하는 부분만 한정적으로 렌더링 하는 방식이 가능해졌습니다.
+</pre>
+
+<details>
+   <summary>Solution</summary>
+      <strong>Ajax(Asynchronous Javascript and XML)</strong>
+</details>
+
+<br>
+
+<pre>9. [  ]는 비동기 I/O를 지원하는 단일 스레드 이벤트 루프 기반으로 동작함으로써 요청 처리 성능이 좋습니다. 따라서 데이터를 실시간으로 처리하기 위해 I/O가 빈번하게 발생하는 SPA(Single Page Aplication)에 적합니다.
+</pre>
+
+<details>
+   <summary>Solution</summary>
+      <strong>Node.js</strong>
+</details>
+
+<br>

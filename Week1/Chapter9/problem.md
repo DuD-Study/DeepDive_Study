@@ -1,4 +1,5 @@
 # Chapter 9
+
 <h2 align="center">중요한 것은 코드를 예측할 수 있어야 한다는 것이다.</h2>
 <br>
 
@@ -28,6 +29,64 @@
    </details> 
 <br>
 
+<pre>4. 아래와 같이 자바스크립트엔진은 가급적 에러를 발생시키지 않도록 [  ]타입 변환을 통해 표현식을 평가합니다.
+</pre>
 
+```js
+"10" + 2; // '102'
+5 * 10; // 50
+!0; // true
+```
 
+<details>
+   <summary>Solution</summary>
+      <strong>암묵적</strong>
+</details>
 
+<br>
+
+<pre>5. 다음 예제를 보고 예측하세요.
+</pre>
+
+```js
+1. +undefined
+2. +[10,20]
+3. -null
+4. [] + ''
+5. [10, 20] + ''
+6. +[]
+7. +''
+```
+
+<details>
+   <summary>Solution</summary>
+<pre>
+1. NaN
+2. NaN
+3. -0
+4. ''
+5. '10,20'
+6. 0
+7. 0
+</pre>
+<pre>[해설]
+단항연산자(+,-)는 피연산자가 숫자 타입의 값이 아니면 숫자타입의 값으로 암묵적 타입 변환을 수행하는데, 빈 문자열(''), 빈 배열([]), null, false는 0,-0으로, true는 1,-1로 변환됩니다. 객체와 빈 배열이 아닌 배열, undefined는 변환되지 않아 NaN이 됩니다.
+</pre>
+</details>
+
+<br>
+
+<pre>6. 논리합(||) 또는 논리곱(&&) 연산자는 논리 연산의 결과를 결정하는 피연산자를 타입 변환하지 않고 그대로 변환합니다. 이를 [   ]라 한다. [   ]는 표현식을 평가하는 도중에 평가 결과가 확정된 경우 나머지 평가 과정을 생략하는 것을 말합니다.
+</pre>
+
+```js
+false || "Dog"; // 'Dog'
+"cat" && false; // false
+```
+
+<details>
+   <summary>Solution</summary>
+      <strong>단축 평가(short-circuit evaluation)</strong>
+</details>
+
+<br>

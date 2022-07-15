@@ -54,3 +54,20 @@ current = current + temp;
 </details>
 
 <br>
+
+<pre>6. 아래 코드를 삼항 조건 연산자로 바꿔보시오 </pre>
+
+```js
+if (score >= 60) {
+  result = "합격";
+} else {
+  result = "불합격";
+}
+```
+
+   <details>
+      <summary>Solution</summary>
+        <strong> var result = score >= 60 ? "합격" : "불합격"</strong>
+   </details> 
+
+<br>

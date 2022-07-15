@@ -90,3 +90,14 @@ false || "Dog"; // 'Dog'
 </details>
 
 <br>
+
+<pre>7. 문자열 타입이 아닌 값을 문자열 타입으로 변환하는 방법 3가지를 서술하시오.</pre>
+
+<details>
+<summary>Solution</summary>
+<pre>
+1. String 생성자를 호출
+2. Object.prototype.toString 메서드를 사용
+3. 문자열 연결 연산자를 이용
+</pre>
+</details>

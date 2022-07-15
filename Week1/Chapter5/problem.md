@@ -81,3 +81,13 @@ function FN(){}
 </details>
 
 <br>
+
+<pre>6.구글 개발자 도구에서 var x;와 같이 변수 선언문을 실행하면 undefined가 반환된다. 변수 선언문은 표현식이 아닌 문이므로 값을 반환해야할 자리에 평가된 값이 아닌 undefined가 출력되는 것이고, 이를 [   ] 이라고 한다. 이는 자바스크립트 엔진이 암묵적으로 할당해주는 것이며, 변수에 담을 수 없고, 참조할 수 없는 값이다.
+</pre>
+
+<details>
+   <summary>Solution</summary>
+      <strong>완료 값(completion value)</strong>
+</details>
+
+<br>

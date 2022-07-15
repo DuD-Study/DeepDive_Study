@@ -101,3 +101,25 @@ false || "Dog"; // 'Dog'
 3. 문자열 연결 연산자를 이용
 </pre>
 </details>
+
+<pre>8. 다음 예제를 보고 예측하세요.
+</pre>
+
+```js
+1. Boolean(‘false’); 
+2. Boolean(Infinity); 
+3. Boolean(undefined); 
+4. Boolean({}); 
+```
+
+<details>
+   <summary>Solution</summary>
+<pre>
+1. true
+2. true
+3. false
+4. true
+</pre>
+</details>
+
+<br>

@@ -71,3 +71,22 @@ if (score >= 60) {
    </details> 
 
 <br>
+
+<pre>7. 다음 중 옳은 것을 고르세요</pre>
+
+```js
+[    ] 문은 반복 횟수가 명확할때 주로 사용하고 [    ] 문은 반복 횟수가 불명확할때 주로 사용한다.
+[    ] 문 내에서 실행해야 할 코드가 한 줄이라면 [    ] 문을 사용했을 때보다 간편하고 가독성도 좋다. 
+
+1. for /  while / if / continue
+2. while / for / if / continue
+3. for / while / continue / if
+4. while / for / continue / if
+```
+
+   <details>
+      <summary>Solution</summary>
+        <strong> 1번 </strong>
+   </details> 
+
+<br>

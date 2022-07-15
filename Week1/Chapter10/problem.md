@@ -12,7 +12,7 @@ console.log(typeof empty);
 
    <details>
       <summary>Solution</summary>
-        <strong>정답은 : Empty 
+        <strong>정답은 : object 
         <br>프로퍼티가 없어도 객체는 생성 됩니다.</strong><br>
    </details> 
 <br>

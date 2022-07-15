@@ -23,7 +23,7 @@ t = 3 * 3;
 
    <details>
       <summary>Solution</summary>
-        <strong>let x;</strong>는 표현식이 아니다. 표현식 구분은 간단하다. 변수에 할당해 보는 것인다.<br>할당 할 수 없을거 같은 건 표현식이 아닌거다.
+        <strong>let x;</strong>는 표현식이 아니다. 표현식 구분은 간단하다. 변수에 할당해 보는 것이다.<br>할당 할 수 없을거 같은 건 표현식이 아닌거다.
    </details>
 
 <br>

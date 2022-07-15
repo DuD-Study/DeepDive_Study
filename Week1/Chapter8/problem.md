@@ -45,7 +45,7 @@ current = current + temp;
 
 <br>
 
-<pre>5. [  ]문은 레이블 문, 반복문(for, for..in, for..of, while, do..while) 또는 switch 문의 코드 블록을 탈출합니다. 이것 외에 [  ]문을 사용한다면 SyntaxError(문법 에러)가 발생합니다.
+<pre>5. [  ]문은 레이블 문, 반복문(for, for..in, for..of, while, do..while) 또는 switch 문의 코드 블록을 탈출합니다.<br> 이것 외에 [  ]문을 사용한다면 SyntaxError(문법 에러)가 발생합니다.
 </pre>
 
 <details>

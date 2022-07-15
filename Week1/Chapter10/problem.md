@@ -67,3 +67,23 @@ let person = {
 </details>
 
 <br>
+
+<pre>5. 프로퍼티 값이 함수일 경우 일반 함수와 구분하기 위해 [       ]라 부른다.
+</pre>
+
+```js
+let myInfo  = {
+   name : 'Evan',
+   intro : function () {
+      return console.log(`Hello I'm ${this.name}, Nice to meet ya`);
+   }
+}
+```
+
+<details>
+   <summary>Solution</summary>
+      <strong>메소드(Method)</strong>
+</details>
+
+<br>
+

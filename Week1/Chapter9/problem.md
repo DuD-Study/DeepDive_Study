@@ -90,3 +90,21 @@ false || "Dog"; // 'Dog'
 </details>
 
 <br>
+
+<pre>7. '5'와 같은 문자열을 숫자 타입으면 변환하는 방법 3가지 이상  
+</pre>
+
+```js
+let str = '5';
+```
+
+<details>
+   <summary>Solution</summary>
+     1. Number 생성자 함수를 사용하기 ex) Number(str); <br>                
+     2. ParseInt, ParseFloat같은 함수를 사용하는 방법 ex) parseInt(str);<br>
+     3. + 단항 산술 연산자를 이용하는 방법 ex) +str;<br> 
+     4. * 산술 연산자를 이용하는 방법 ex) str*1;<br>
+</details>
+
+<br>
+

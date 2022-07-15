@@ -85,23 +85,7 @@ console.log(x);
    </details> 
    <br>
 
-<pre>6. 아래 코드를 삼항 조건 연산자로 바꿔보시오 </pre>
-
-```js
-if (score >= 60) {
-  result = "합격";
-} else {
-  result = "불합격";
-}
-```
-
-   <details>
-      <summary>Solution</summary>
-        <strong> var result = score >= 60 ? "합격" : "불합격"</strong>
-   </details> 
-   
-<br>
-<pre>7. 결과를 예측해 보세요.</pre>
+<pre>6. 결과를 예측해 보세요.</pre>
 
 ```js
 let x = 1;
@@ -120,7 +104,7 @@ console.log(x);
 </details>
 
 <br>
-<pre>8. 다음과 같이 0과 NaN은 일치 비교 연산자로 정확한 평가가 되지 않습니다.<br> ES6에 도입된 이 메서드는 0과 NaN의 정확한 비교 결과를 반환하는데 이 메서드는 무엇일까요.</pre>
+<pre>7. 다음과 같이 0과 NaN은 일치 비교 연산자로 정확한 평가가 되지 않습니다.<br> ES6에 도입된 이 메서드는 0과 NaN의 정확한 비교 결과를 반환하는데 이 메서드는 무엇일까요.</pre>
 
 ```js
 console.log(-0 === +0); // true
@@ -135,7 +119,7 @@ console.log(NaN === NaN); // false
 
 <br>
 
-<pre>9. 다음 결과를 예측하세요.</pre>
+<pre>8. 다음 결과를 예측하세요.</pre>
 
 ```js
 let num = 10;

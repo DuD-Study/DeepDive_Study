@@ -87,3 +87,16 @@
  - [Chapter 8 - 제어문](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week1/Chapter8/problem.md)<br>
  - [Chapter 9 - 타입변환과 단축평가](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week1/Chapter9/problem.md)<br>
  - [Chapter 10 - 객체 리터럴](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week1/Chapter10/problem.md)<br>
+
+<br>
+
+### Week 2
+
+<br>
+
+ - [Chapter 11 - 원시 값과 객체의 비교](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week2/Chapter11/problem.md)<br>
+ - [Chapter 12 - 함수](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week2/Chapter12/problem.md)<br>
+ - [Chapter 13 - 스코프](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week2/Chapter13/problem.md)<br>
+ - [Chapter 14 - 전역 변수의 문제점](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week2/Chapter14/problem.md)<br>
+ - [Chapter 15 - let, const 키워드와 블록 레벨 스코프](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week2/Chapter15/problem.md)<br>
+ - [Chapter 16 - 프로퍼티 어트리뷰트](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week2/Chapter16/problem.md)<br>

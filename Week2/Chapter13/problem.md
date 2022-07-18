@@ -10,3 +10,35 @@
 </details>
 
 <br>
+
+<pre>2. 아래의 코드를 보고 실행 결과를 예측하시오.
+</pre>
+
+```js
+var n1 = 1;
+var n2 = "a";
+
+function a() {
+  var n1 = 2;
+  b();
+}
+
+function b() {
+  var n2 = "b";
+  console.log(n1); // 1. ?
+  c();
+  function c() {
+    console.log(n2); // 2. ?
+  }
+}
+
+a();
+```
+
+<details>
+  <summary>Solution</summary>
+  <strong>1. 1<br>2. b</strong>
+  <pre>var 키워드로 선언된 변수는 오로지 함수의 코드 블록(함수 몸체)만을 지역 스코프로 인정한다. 또한 자바스크립트는 렉시컬 스코프를 따르므로 함수를 어디서 정의했는지에 따하 상위 스코프를 결정한다.</pre>
+</details>
+
+<br>

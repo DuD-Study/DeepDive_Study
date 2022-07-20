@@ -36,3 +36,23 @@ o
 </details>
 
 <br>
+
+<pre>3. 원시 값을 변경하려면은?
+</pre>
+
+<details>
+  <summary>Solution</summary>
+    <strong>재할당 한다.(새로운 메모리에 할당)</strong> <br> ex) let test = "test"<br> test = "change test"
+</details>
+
+<br>
+
+<pre>4. 얕은 복사가 가능한 조건은?
+</pre>
+
+<details>
+  <summary>Solution</summary>
+    <strong>깊이가 1단계 일때</strong> 
+</details>
+
+<br>

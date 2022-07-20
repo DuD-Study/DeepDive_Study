@@ -51,3 +51,12 @@ bar(); // 2. ?
 </details>
 
 <br>
+
+<pre>5.함수 표현식과 함수 선언문 중 함수의 생성 시점이 빠른 것은?</pre>
+
+<details>
+  <summary>Solution</summary>
+    <strong>함수 선언문</strong> : 자바스크립트 엔진에 의해 먼저 실행된다.
+</details>
+
+<br>

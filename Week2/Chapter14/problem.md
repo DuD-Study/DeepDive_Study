@@ -8,3 +8,12 @@
 </details>
 
 <br>
+
+<pre>2. 변수는 선언에 의해 생성되고 할당을 통해 값을 갖는다. 그리고 언젠가는 소멸되는데 이것을 과정을 변수의 [         ]라고 한다. 전역 변수의 [            ]는 애플리케이션의 [         ]와 같다.</pre>
+
+<details>
+  <summary>Solution</summary>
+    <strong>생명주기 (Life Cycle)</strong>
+</details>
+
+<br>

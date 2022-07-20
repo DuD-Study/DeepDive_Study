@@ -20,3 +20,29 @@ console.log(window.z); // 3. ?
 </details>
 
 <br>
+
+<pre>2. 아래 코드를 보고 실행 결과를 예측하시요. 
+</pre>
+
+```js
+var i = 10;
+let j = 2;
+
+function cal(a,b){  
+  return a*b**2;
+}
+
+for(var i = 1; i <= 5 ; i++){
+  console.log(i);
+}
+
+console.log(cal(i,j));
+```
+
+<details>
+  <summary>Solution</summary>
+  1<br>2<br>3<br>4<br>5<br>24
+  <pre>var i는 for문의 블록스코프에서 재선언 됬을때 10이라는 값을 잃고, 재선언된 1부터 시작해 for문이 끝나고 난 뒤, 생명주기가 다하지않고 6이라는 값이 유지되며, 애플리케이션이 끝날때까지 유지됩니다.</pre>
+</details>
+
+<br>

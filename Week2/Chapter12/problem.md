@@ -4,7 +4,7 @@
 
 <details>
   <summary>Solution</summary>
-    <strong>변수(Parameter), 인수(argument), 반환값(return value)</strong>
+    <strong>매개변수, 인자(Parameter), 인수(argument), 반환값(return value)</strong>
 </details>
 
 <br>

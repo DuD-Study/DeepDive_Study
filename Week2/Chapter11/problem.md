@@ -52,7 +52,7 @@ o
 
 <details>
   <summary>Solution</summary>
-    <strong>깊이가 1단계 일때</strong> 
+    <strong>깊이가 1단계 일때 </strong> 
 </details>
 
 <br>

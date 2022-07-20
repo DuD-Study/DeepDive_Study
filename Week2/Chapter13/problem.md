@@ -42,3 +42,12 @@ a();
 </details>
 
 <br>
+
+<pre>3. 함수를 어디서 호출했는지에 따라 함수의 상위 스코프를 결정하는 것을 [1.           ] 함수를 어디서 정의했는지에 다라 함수의 상위 스코프를 결정하는 것을 [2.              ]
+</pre>
+
+
+<details>
+  <summary>Solution</summary>
+  <strong>1.동적 스코프(dynamic scope)<br>2.렉시컬 스코프(lexical scope)</strong>
+</details>

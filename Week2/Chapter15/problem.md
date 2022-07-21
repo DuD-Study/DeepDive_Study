@@ -47,3 +47,10 @@ console.log(cal(i,j));
 </details>
 
 <br>
+<pre>3. 상수를 만들때 어떻게 만들어야 하며 상수로 선언된 객체값을 바꿀수 있나요?
+</pre>
+
+<details>
+  <summary>Solution</summary>
+  <pre>Const 를 이용하며 대문자 + _(언더바) 를 이용하여 만들며, 상수 키워드로 선언된 객체는 값을 변경할 수 있습니다.</pre>
+</details>

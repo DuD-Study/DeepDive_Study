@@ -84,8 +84,8 @@ console.log(Object.getOwnPropertyDescriptor(person, "fullName"));
 
 <details>
 <summary>Solution</summary>
-X | O | O | O | O  
-X | X | O | O | X  
+X | O | O | O | O  <br>
+X | X | O | O | X  <br>
 X | X | O | X | X  
 </details>
 

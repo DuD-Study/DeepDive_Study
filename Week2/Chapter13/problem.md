@@ -51,3 +51,27 @@ a();
   <summary>Solution</summary>
   <strong>1.동적 스코프(dynamic scope)<br>2.렉시컬 스코프(lexical scope)</strong>
 </details>
+
+<pre>4. 아래 코드의 실행 결과는?
+</pre>
+```js
+var x = 1;
+
+function testX() {
+  var x = 30;
+  return x
+}
+
+if ( true ) {
+  var x = 10;
+}
+for ( var x = 0; x <20; x++){}
+
+console.log(x); //(1)
+console.log(testX()); //(2)
+
+```
+<details>
+  <summary>Solution</summary>
+  <strong>1. 20<br>2. 30 </strong> 
+</details>

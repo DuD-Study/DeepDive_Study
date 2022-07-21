@@ -74,3 +74,23 @@ console.log(Object.getOwnPropertyDescriptor(person, "fullName"));
 </details>
 
 <br>
+
+<pre>4. 아래의 표를 완성해보세요.</pre>
+구분 | 메서드 | 프로퍼티추가 | 프로퍼티삭제 | 프로퍼티 값 읽기 | 프로퍼티 값 쓰기 | 프로퍼티 어트리뷰트 재정의 
+--|--|--|--|--|--|--
+객체 확장 금지 | Object.preventExtensions | 　 | 　 | 　 | 　 | 　  
+객체 밀봉 | Object.seal | 　 | 　 | 　 | 　 | 　  
+객체 동결 | Object.freeze | 　 | 　 | 　 | 　 | 　  
+
+<details>
+<summary>Solution</summary>
+X | O | O | O | O  <br>
+X | X | O | O | X  <br>
+X | X | O | X | X  
+</details>
+
+
+
+
+
+

@@ -10,29 +10,50 @@
 
 <br>
 
-<pre>2. 변수 str과 for문을 사용하여 다음과 같은 결과로 출력하시오.
+<pre>2. 다음 코드의 실행 결과를 예측해 보시오.
 </pre>
 
 ```js
-let str = "hello";
+const person1 = {
+    name: "Lee",
+}
+
+const person2 = {
+    name: "Lee",
+}
+
+console.log(person1 === person2); // ①
+console.log(person1.name === person2.name); // ②
 ```
 
-결과
 
-<pre>
-h
-e
-l
-l
-o
+
+<details>
+  <summary>Solution</summary>
+  <pre>
+① = false (person1과 person2는 내용은 같지만 다른 메모리에 저장된 별개의 객체임. (원시 값이 아님))
+② = true (두 표현식 모두 원시값 "Lee"로 평가되기 때문.)
+</pre>
+</details>
+
+<br>
+
+<pre>3. 원시 값을 변경하려면은?
 </pre>
 
 <details>
   <summary>Solution</summary>
-  <pre>for(let i = 0; i < str.length; i++) {
-  console.log(str[i]);
-}
+    <strong>재할당 한다.(새로운 메모리에 할당)</strong> <br> ex) let test = "test"<br> test = "change test"
+</details>
+
+<br>
+
+<pre>4. 얕은 복사가 가능한 조건은?
 </pre>
+
+<details>
+  <summary>Solution</summary>
+    <strong>깊이가 1단계 일때 </strong> 
 </details>
 
 <br>

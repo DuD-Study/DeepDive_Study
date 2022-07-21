@@ -17,3 +17,15 @@
 </details>
 
 <br>
+
+<pre>3. 전역 변수의 문제점을 설명하시오. (4가지)</pre>
+
+<details>
+  <summary>Solution</summary>
+    <strong>암묵적 결합(implicit coupling)</strong>: 전역 변수를 선언한다는 것은 코드 어디서든 참조하고 할당할 수 있는 변수를 사용하겠다는 의미를 담고 있기 때문에 유효 범위가 크면 코드의 가독성이 나빠지고 의도치 않게 상태가 변경되어 위험성이 높아진다.<br>
+    <strong>긴 생명주기</strong>: 메모리 리소스를 오랜시간 소비함.<br>
+    <strong>스코프 체인상 종점에 존재</strong>: 검색속도가 느림.<br>
+    <strong>네임스페이스 오염</strong>: 다른 파일 내 동일한 이름으로 명명된 전역 변수/함수가 같은 스코프 내 존재할 경우 예상치 못한 결과 발생.
+</details>
+
+<br>

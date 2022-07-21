@@ -6,17 +6,18 @@
 ```js
 var x = 1;
 y = 2;
+console.log(z); // 1. ?
 let z = 3;
 
-console.log(window.x); // 1. ?
-console.log(y); // 2. ?
-console.log(window.z); // 3. ?
+console.log(window.x); // 2. ?
+console.log(y); // 3. ?
+console.log(window.z); // 4. ?
 ```
 
 <details>
   <summary>Solution</summary>
-  <strong>1. 1<br>2. 2<br>3.undefined</strong>
-  <pre>1. var 키워드로 선언된 전역변수는 전역객체의 프로퍼티로 추가된다. 따라서 브라우저의 전역객체를 가리키는 window의 프로퍼티로 추가된다.<br>2. 선언하지 않은 변수에 값을 할당한 암묵적 전역 변수는 전역객체 window의 프로퍼티가 된다. 전역 객체의 프로퍼티를 참조할 때 window를 생략할 수 있다.<br>3. let으로 선언된 전역 변수는 전역객체 window의 프로퍼티가 되지 않음.</pre>
+  <strong>1. ReferenceError</strong><br><strong>2. 1<br>3. 2<br>4.undefined</strong>
+  <pre>1. let과 const키워드로 선언한 변수는 변수 호이스팅이 발생하지 않는 것 처럼 동작한다. <br>2. var 키워드로 선언된 전역변수는 전역객체의 프로퍼티로 추가된다. 따라서 브라우저의 전역객체를 가리키는 window의 프로퍼티로 추가된다.<br>3. 선언하지 않은 변수에 값을 할당한 암묵적 전역 변수는 전역객체 window의 프로퍼티가 된다. 전역 객체의 프로퍼티를 참조할 때 window를 생략할 수 있다.<br>4. let으로 선언된 전역 변수는 전역객체 window의 프로퍼티가 되지 않음.</pre>
 </details>
 
 <br>
@@ -46,3 +47,10 @@ console.log(cal(i,j));
 </details>
 
 <br>
+<pre>3. 상수를 만들때 어떻게 만들어야 하며 상수로 선언된 객체값을 바꿀수 있나요?
+</pre>
+
+<details>
+  <summary>Solution</summary>
+  <pre>Const 를 이용하며 대문자 + _(언더바) 를 이용하여 만들며, 상수 키워드로 선언된 객체는 값을 변경할 수 있습니다.</pre>
+</details>

@@ -57,3 +57,13 @@ console.log(person1.name === person2.name); // ②
 </details>
 
 <br>
+
+<pre>5. 원시 값을 변수에 할당하면 변수에는 [     ]이 저장된다. 이에 비해 객체를 변수에 할당하면 변수에는 [     ]이 저장된다.
+</pre>
+
+<details>
+  <summary>Solution</summary>
+    <strong>실제 값, 참조 값</strong> 
+</details>
+
+<br>

@@ -54,3 +54,14 @@ console.log(cal(i,j));
   <summary>Solution</summary>
   <pre>Const 를 이용하며 대문자 + _(언더바) 를 이용하여 만들며, 상수 키워드로 선언된 객체는 값을 변경할 수 있습니다.</pre>
 </details>
+
+<br>
+<pre>4. let 키워드로 선언한 변수는 [   1   ]와 [   2   ]가 분리되어 진행된다.  
+즉, 런타임 이전에 자바스크립트 엔진에 의해 암묵적으로 [   1   ]가 먼저 실행되지만 <br/>[   2   ]는 변수 선언문에 도달했을 때 실행된다.
+</pre>
+
+<details>
+  <summary>Solution</summary>
+  <strong>1: 선언 단계  2: 초기화 단계</strong>
+
+</details>

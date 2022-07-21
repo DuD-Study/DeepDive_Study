@@ -75,3 +75,24 @@ console.log(testX()); //(2)
   <summary>Solution</summary>
   <strong>1. 20<br>2. 30 </strong> 
 </details>
+
+<pre>5. 아래 예제와 같이 변수명이 중복된 경우 [    ]를 우선하여 참고한다.
+</pre>
+```js
+var x = 'global';
+
+function foo() {
+  var x = 'local';
+  console.log(x);
+}
+
+foo();           
+console.log(x);  
+```
+<details>
+  <summary>Solution</summary>
+  <strong>지역변수 </strong> 
+  <pre>전역 영역에서는 전역 변수만이 참조 가능하고, 함수 내 지역 영역에서는 전역과 지역 변수 모두 참조 가능하나, 위 예제와 같이 변수명이 중복된 경우, 지역변수를 우선하여 참조한다.</pre>
+</details>
+
+<br>

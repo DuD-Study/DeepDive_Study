@@ -89,6 +89,13 @@ X | X | O | O | X  <br>
 X | X | O | X | X  
 </details>
 
+<br>
+<pre>5. 깊이가 2이상인 객체를 동결하는 방법을 서술하시오</pre>
+
+<details>
+<summary>Solution</summary>
+일반 .freeze를 쓰면 얕은 객체만 동결됩니다. 중첩 객체 까지 동결시키려면 모든 프로퍼티에 재귀적으로 .freeze 메소드를 호출하여 동결합니다.
+</details>
 
 
 

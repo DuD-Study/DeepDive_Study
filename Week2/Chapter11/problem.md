@@ -48,17 +48,7 @@ console.log(person1.name === person2.name); // ②
 
 <br>
 
-<pre>4. 얕은 복사가 가능한 조건은?
-</pre>
-
-<details>
-  <summary>Solution</summary>
-    <strong>깊이가 1단계 일때 </strong> 
-</details>
-
-<br>
-
-<pre>5. 원시 값을 변수에 할당하면 변수에는 [     ]이 저장된다. 이에 비해 객체를 변수에 할당하면 변수에는 [     ]이 저장된다.
+<pre>4. 원시 값을 변수에 할당하면 변수에는 [     ]이 저장된다. 이에 비해 객체를 변수에 할당하면 변수에는 [     ]이 저장된다.
 </pre>
 
 <details>

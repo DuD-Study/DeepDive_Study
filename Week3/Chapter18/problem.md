@@ -12,10 +12,39 @@
 <details>
   <summary>Solution</summary>
   <strong>
-  1. 리터럴  ex) function(x, y) {return x*y} <br>
-  2. 자료구조 (객체, 배열) <br>
-  3. 매개변수 <br>
-  4. 반환값 <br> </strong>
+  1. 리터럴  ex) function(x, y) {return x*y} <br></strong>
+  
+  ```js
+  const af = function() {
+    return alert('anonymous function')
+  }
+  af();
+  ```
+
+  <strong>2. 자료구조 (객체, 배열) <br>
+  3. 매개변수</strong><br>
+
+  ```js
+  function foo(x) {
+    alert(x);
+  }
+  function bar(func) {
+    func("Hello World!");
+  }
+  bar(foo);
+  ```
+  <strong>4. 반환값 <br> </strong>
+  
+  ```js
+  function a(){
+  return b();
+}
+
+function b(){
+  alert('Hello World');
+}
+a();
+  ```
 </details>
 
 <br>

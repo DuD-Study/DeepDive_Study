@@ -12,8 +12,8 @@
 <details>
   <summary>Solution</summary>
   <strong>
-  1. 리터럴 <br>
-  2. 자료구조 <br>
+  1. 리터럴  ex) function(x, y) {return x*y} <br>
+  2. 자료구조 (객체, 배열) <br>
   3. 매개변수 <br>
   4. 반환값 <br> </strong>
 </details>

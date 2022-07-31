@@ -108,3 +108,26 @@ console.log(obj);
 위의 코드에서 Object.getPrototypeOf(obj)를 실행해보자.</pre>
 </details>
 
+
+<pre>7. 예상 출력 값에 알맞는 코드를 예상해보세요.</pre>
+```js
+const IU = {
+    age : 29,
+    name : 'Jieun Lee',
+    address : 'Seoul',
+}
+
+[         코드          ]  // -> ['age', 'name', 'address']
+[         코드          ]  // -> [29, 'Jieun Lee', 'Seoul']
+[         코드          ]  // -> [ [ 'age', 29 ], [ 'name', 'Jieun Lee' ], [ 'address', 'Seoul' ] ]
+```
+
+<details>
+<summary>Solution</summary>
+<strong>1. Object.keys(IU) <br/>
+        2. Object.values(IU) <br/>
+        3. Object.entries(IU) <br/>
+</strong>
+<pre>for in 문으로도 key값과 value값들을 출력할 수 있지만 상속받은 프로퍼티도 열거를 하기 때문에 ES8부터 도입된<br>
+Object.keys,values,entries 메소드의 사용을 권장한다. 위 메소드는 프로퍼티 값을 배열로 반환해준다.</pre>
+</details>

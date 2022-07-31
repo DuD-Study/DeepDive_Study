@@ -9,13 +9,15 @@
   name = "zooyaho";
   console.log(name); // 1. ?
   console.log(arguments); // 2. ?
+  console.log(this); // 3. ?
 })("lee");
 ```
 
 <details>
   <summary>Solution</summary>
-  <strong>1. zooyaho<br>2. lee</strong>
-  <pre>strict mode에서 매개변수에 전달된 인수를 재할당하여 변경해도 arguments 객체에 반영되지 않는다.</pre>
+  <strong>1. zooyaho<br>2. lee<br>3. undefined</strong>
+  <pre>strict mode에서 매개변수에 전달된 인수를 재할당하여 변경해도 arguments 객체에 반영되지 않는다.
+<br>strict mode에서 함수를 임반함수로서 호출하면 this에 undefined가 바인딩 된다.</pre>
 </details>
 
 <br>
@@ -47,3 +49,4 @@
   <summary>Solution</summary>
   <strong>1. 전역 <br>2. 즉시 실행 함수</strong>
 </details>
+

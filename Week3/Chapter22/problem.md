@@ -107,3 +107,28 @@ alert( user.ref().name ); // John
 
 </details>
 
+<pre>4. 어떻게 출력되고 왜 그렇게 되는가? </pre>
+
+```js
+var value = 1;
+
+const ojb = {
+  value : 100,
+  foo() {
+    console.log("foo's this : " , this); //?
+    console.log("foo's this.value : " , this.value) //?
+  function bar() {
+    console.log("bar's this: ", this); //?
+    console.log("bar's this.value : " , this.value )
+  }
+  bar();
+  }
+
+}
+```
+<details>
+<summary>Solution</summary>
+<strong>{value: 100, foo: f } , 100 , window , 1</strong>
+<pre> 중첩 함수도 일반함수로 호출되면 this에는 전역 객체가 바인딩되기때문
+</pre>
+</details>

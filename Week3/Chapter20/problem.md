@@ -50,3 +50,16 @@
   <strong>1. 전역 <br>2. 즉시 실행 함수</strong>
 </details>
 
+<br>
+
+<pre>3. 빈칸에 들어갈 알맞은 단어를 쓰십시오.</pre>
+
+<pre> [        ]를 사용해도 strict mode와 유사한 효과를 얻을 수 있는데, 정적 분석 기능을 통해 소스코드를 실행전 스캔하여, 
+      문법적, 잠재적 오류를 찾아주고 원인을 리포팅까지 해준다. 또한 strict mode가 제한하는 오류도 설정 파일 형태로 정의하고 강제할 수 있어
+      더욱 강력한 효과를 얻을 수 있어서, strict mode보다 더 사용을 선호한다고 '이웅모' 저자가 말했다.  </pre>
+
+<details>
+  <summary>Solution</summary>
+  <strong>린트 도구 || 린터 </strong>
+  https://poiemaweb.com/eslint 에 들어가서 설치법을 찾아보즈아.. prettier랑 eslint 조합이 끝장왕인듯 하다. 
+</details>

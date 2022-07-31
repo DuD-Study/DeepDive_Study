@@ -68,3 +68,12 @@ bar(1, 2, 3);
 </details>
 
 <br>
+<pre>3. 함수에 선언된 매개변수의 개수보다 인수가 적을때, 많을때의 상태를 서술하시오 </pre>
+
+<details>
+  <summary>Solution</summary>
+  <pre>ex) sum(x , y) return 값은 x + y 라는 함수가 있을때 적게 인수를 받았을때는 <strong>undefined</strong>로 초기화된 상태를 유지하고, 인수를 더 많이 전달하였을 경우엔 과된 인수는 무시된다.
+  이러한 특성들을 이용하여 <strong>가변 인자 함수</strong>를 구현할 수 있다.</pre>
+</details>
+
+<br>

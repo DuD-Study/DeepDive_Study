@@ -82,3 +82,21 @@ console.log(str.toUpperCase()) // DEEPDIVE
 </details>
 
 <br>
+
+<pre>5. 다음 코드의 실행결과를 예측하시오.</pre>
+
+```js
+var test = 1;
+console.log(window.test) // ?
+let test2 = 2
+console.log(window.test2); // ?
+```
+
+<details>
+<summary>Solution</summary>
+<Strong>1, undefined</Strong>
+<pre>var 키워드로 선언한 전역 변수는 전역 객체의 프로퍼티가 된다.
+단 let, const 키워드로 선언한 전역 변수는 전역 객체의 프로퍼티가 아니다. 보이지않는 개념적인 블록( 전역 렉시컬 환경의 선언적 환경 레코드 ) 내에 존재하게 된다.</pre>
+</details>
+
+<br>

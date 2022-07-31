@@ -64,7 +64,7 @@ bar(1, 2, 3);
 <details>
   <summary>Solution</summary>
   <strong>1. 1</strong><br><strong>2. 3</strong>
-  <pre>arguments 객체의 lenth프로퍼티는 인자의 개수를 가리키고, 함수 객체의 length프로퍼티는 매개변수의 개수를 가리킨다.</pre>
+  <pre>arguments 객체의 length 프로퍼티는 인자의 개수를 가리키고, 함수 객체의 length 프로퍼티는 매개변수의 개수를 가리킨다.</pre>
 </details>
 
 <br>

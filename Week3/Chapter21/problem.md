@@ -39,3 +39,28 @@ parseFloat('30 years');
 </details>
 
 <br>
+
+<pre>3. 빈칸을 채워 넣어 보시오</pre>
+
+<pre>1. 기존에 전역 객체는 브라우저 환경(window)과 Node.js 환경(global)에서 식별자를 달리 사용했는데, 
+        둘을 통일 한 식별자 [ 1.         ]가 ES11에서 도입되었다. 
+
+2. 밑에 코드처럼 원시값이 마치 객체처럼 동작하는 이유는 자바스크립트 엔진이 암묵적으로 연관된 객체를 생성하여 그 객체로 
+   프로퍼티에 접근하거나 메소드를 호출하고 다시 원시 값을 되돌리기 때문인데, 그 임시 객체를 [ 2.         ]라고 한다. 
+</pre>
+
+```js
+const str = 'deepdive';
+
+console.log(str.length)   // 8
+console.log(str.toUpperCase()) // DEEPDIVE
+```
+<pre>3. 방금 위에서 [2.          ]는 식별자에 원시값을 되돌리고 [ 3.              ]의 대상이 되어버림. </pre>
+
+
+<details>
+  <summary>Solution</summary>
+  <strong>1.globalThis (p.326) <br>2.래퍼 객체(p.323) </br>3. 가비지 컬렉션 (p.324) </strong>
+</details>
+
+<br>

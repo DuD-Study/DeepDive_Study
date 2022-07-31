@@ -108,16 +108,16 @@ console.log(triangle); // 3. ?
 <details>
 <summary>Solution</summary>
 <strong>new.target</strong>
-<pre>사용예:
+<pre>
 
 ```js
 function Circle(radius) {
-    if (!new.target) {
-        return new Circle(radius);
+  if (!new.target) {
+    return new Circle(radius);
     }
     this.radius = radius;
     this.getDiameter = function () {
-        return 2 * this.radius;
+      return 2 * this.radius;
     }
 }
 // new 연산자 없이 생성자 함수를 호출하여도 new.target을 통해 생성자 함수로서 호출된다.
@@ -125,5 +125,21 @@ const circle = Circle(5);
 console.log(circle.getDiameter()); // 10
 ```
 다만, new.target은 ES6에서 도입된 최신 문법으로 IE에서는 지원하지않음을 유의해야한다.
+</pre>
+</details>
+
+
+<pre>6. this가 가리키는 값은?</pre>
+함수 호출 방식 | this가 가리키는 값(this 바인딩)
+--|--
+일반 함수로서의 호출 |  |
+메서드로서 호출 | |
+생성자 함수로서 호출 |  |
+<details>
+<summary>Solution</summary>
+<pre>
+일반 함수로서의 호출 : 전역 객체
+메서드로서 호출 : 메서드를 호출한 객체
+생성자 함수로서 호출 : 생성자 함수가 생성할 인스턴스
 </pre>
 </details>

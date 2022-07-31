@@ -103,7 +103,7 @@ console.log(obj);
 
 <details>
 <summary>Solution</summary>
-<strong >{}</strong>
+<strong>{}</strong>
 <pre>obj의 프로토타입에 x: 1이 추가 되는 것이지 obj 자체가 변하는 것은 아니다.
 위의 코드에서 Object.getPrototypeOf(obj)를 실행해보자.</pre>
 </details>

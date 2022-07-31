@@ -61,3 +61,21 @@ Foo.x(); // x
   <strong>정적(static)</strong>
   <pre>인스턴스/프로토타입 내에서 this를 사용하지 않는 메서드는 정적 메서드로 변경할 수 있다.</pre>
 </details>
+
+<br>
+
+<pre>4. 아래의 예제를 보고 접근자 프로퍼티를 사용하여 프로토타입에 접근하는 이유를 서술하시오.</pre>
+
+```js
+const parent = {};
+const child = {};
+
+child.__proto__ = parent;
+parent.__proto__ = child;
+```
+
+<details>
+  <summary>Solution</summary>
+
+  <pre>프로토타입에 접근하기 위해 접근자 프로퍼티를 사용하는 이유는 상호 참조에 의해 프로토타입 체인이 생성되는 것을 방지하기 위해서이다.이러한 코드가 에러 없이 정상적으로 처리되면 서로가 자신의 프로토타입이 되는 비정상 적인 프로토타입 체인이 만들어지기 때문에 proto 접근자 프로퍼티는 에러를 발생시킨다.</pre>
+</details>

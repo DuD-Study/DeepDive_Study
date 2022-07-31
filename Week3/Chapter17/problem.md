@@ -65,7 +65,7 @@ console.log(a3); // 3. ?
 
 <pre>4. 아래의 코드를 보고 실행 결과를 예측하시오.</pre>
 
-```js
+```j
 function Circle(side) {
   this.side = side;
 

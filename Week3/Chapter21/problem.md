@@ -39,3 +39,21 @@ parseFloat('30 years');
 </details>
 
 <br>
+
+<pre>3. 다음 코드의 실행결과를 예측하시오.</pre>
+
+```js
+const obj = eval("{a: 1}");
+const func = eval("function() {return 2}");
+const multi = eval("1 + 2; 3 + 4;");
+
+console.log(obj, func, multi);
+```
+
+<details>
+<summary>Solution</summary>
+<Strong>1, SyntaxError, 7</Strong>
+<pre>객체와 함수리터럴은 반드시 괄호로 둘러싸야 정상동작하며, 인수가 여러 개의 문이면 마지막 결과 값을 반환한다.</pre>
+</details>
+
+

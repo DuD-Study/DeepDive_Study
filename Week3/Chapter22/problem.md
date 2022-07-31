@@ -44,3 +44,9 @@ getName(); // ?
   <strong>''(브라우저 환경에서 window.name)</strong>
   <pre>fish객체의 getName 프로퍼티는 독립적으로 존재하여 일반 변수에 할당하여 일반 함수로 호출할 수 있다.<br>일반 함수 호출에서 this는 전역객체를 가리키므로 브라우저 환경에서 window.name을 반환한다.</pre>
 </details>
+
+<pre>3. this를 원하는 객체로 바인딩하며 함수를 호출하게 해주는 함수 메서드 3가지는 무엇인가? </pre>
+
+<details>
+<summary>Solution</summary>
+<strong>apply, call, bind</strong></details>

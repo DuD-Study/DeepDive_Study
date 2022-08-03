@@ -1,12 +1,17 @@
 # Chapter 23
 
-<pre>1.</pre>
+<pre>1. 실행 컨텍스트를 생성하는 4가지의 소스코드 타입은 ?</pre>
 
 
 
 <details>
-  <summary></summary>
-  <strong></strong>
+  <summary>Solution</summary>
+  <strong>1. 전역 코드 - 전역에 존재하는 소스코드를 말하고, 함수, 클래스의 내부 코드는 포함 x <br>
+  2. 함수 코드 - 함수 내부에 존재하는 소스코드를 말하고, 중첩함수, 클래스의 내부 코드는 포함 x <br>
+  3. eval 코드 - 빌트인 전역 함수인 eval 함수에 인수로 전달되어 실행되는 소스코드  <br></strong>
+  4. 모듈 코드 - 모듈 내부에 존재하는 소스코드, 내부의 함수, 클래스 내부 코드는 포함 x<br>
 </details>
 
 <br>
+
+

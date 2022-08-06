@@ -21,7 +21,7 @@
 
 <details>
   <summary>Solution</summary>
-  [[Environment]] 에 저장됩니다. 함수가 실행되면서 OuterLexicalEnvironmentRefrence를 통해 외부 렉시컬 환경을 참조하며 하나씩 거슬러 올라가게 됩니다.
+  [[Environment]] 에 저장됩니다. 함수가 실행되면서 OuterLexicalEnvironmentRefrence를 통해 외부 렉시컬 환경을 참조하며 하나씩 거슬러 올라가게 됩니다. 참고 페이지 379P
 
 </details>
 

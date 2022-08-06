@@ -28,3 +28,28 @@ function foo() {
 </details>
 
 <br>
+<pre>2. 코드의 실행결과와 이유를 설명하시오.</pre>
+
+```js
+  var funcs = [];
+  for ( var i = 0 ; i < 3 ; i++>){
+    funcs[i] = function(){return i;}
+  }
+  for( var j = 0; j< funcs.length; j++){
+    console.log(funcs[j]());
+  }
+
+```
+
+
+
+<details>
+  <summary>Solution</summary>
+  <pre>3이 3번 찍힙니다
+  왜냐하면 for문의 변수 i 는 함수 레벨 스코프를 갖기때문에 전역변수이므로 i 에는 0 , 1 , 2가 순차적으로 할당된다.
+  추후 호출시에는 전역변수 i를 참조하기때문에 3이 출력된다.
+  0,1,2가 출력되게끔 하려면 let을 사용하거나 클로저 개념을 활용해보자
+   </pre>
+</details>
+
+<br>

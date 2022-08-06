@@ -14,4 +14,17 @@
 
 <br>
 
+<pre>2. JS는 함수를 어디서 호출했는지가 아니라 어디에 정의했는지에 따라 상위 스코프를 결정하는데요,
+이때 상위스코프는 어디에 저장될까요?</pre>
+
+
+
+<details>
+  <summary>Solution</summary>
+  [[Environment]] 에 저장됩니다. 함수가 실행되면서 OuterLexicalEnvironmentRefrence를 통해 외부 렉시컬 환경을 참조하며 하나씩 거슬러 올라가게 됩니다.
+
+</details>
+
+<br>
+
 

@@ -59,7 +59,7 @@ console.log(counter.increase());
   <summary>Solution</summary>
   <strong>
   <pre>NaN
-  화살효 함수는 this 바인딩을 갖지 않기 때문에 call, apply, bind 메서드를 사용해도 화살표 함수 내부의 this를 교체할 수 없다.</pre>
+  화살효 함수는 this 바인딩을 갖지 않기 때문에 call, apply, bind 메서드를 사용해도 화살표 함수 내부의 this를 교체할 수 없다. + 이러한 이유들로 일반적으로 메서드를 정의할때는 화살표 함수를 쓰지 않는다.</pre>
   </strong>
 </details>
 

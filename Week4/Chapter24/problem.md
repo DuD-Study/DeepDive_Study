@@ -53,3 +53,51 @@ function foo() {
 </details>
 
 <br>
+
+<pre>3. 아래 코드의 출력값을 예상해보고, 원하는대로 동작하게 하려면 어떻게 수정해야할까?</pre>
+```js
+function createIncrement() {
+  let cnt = 0;
+  function increment() { 
+    cnt++;
+  }
+  let message = cnt;
+  function log() {
+    console.log(message);
+  }
+  
+  return [increment, log];
+}
+const [increment, log] = createIncrement();
+increment(); 
+increment(); 
+increment(); 
+log();
+```
+
+<details>
+<summary>Solution</summary>
+<strong>출력값 : 0</strong>
+기존 코드에서 log는 createIncrement 스코프의 message를 참조하고있으므로, 0이 찍히게된다.
+따라서 아래의 코드처럼 cnt를 직접출력하거나, message를 increment내에서 수정하는 방법도 있겠다.
+
+```js
+function createIncrement() {
+  let cnt = 0;
+  function increment() { 
+    cnt++;
+  }
+  function log() {
+    console.log(cnt);
+  }
+  
+  return [increment, log];
+}
+const [increment, log] = createIncrement();
+increment(); 
+increment(); 
+increment(); 
+log();
+```
+
+</details>

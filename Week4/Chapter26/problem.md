@@ -44,3 +44,23 @@
 </details>
 
 <br>
+<pre>3. 아래 코드의 결과와 그 이유는?</pre>
+
+```js
+const counter = {
+  num : 1,
+  increase : () => ++this.num
+}
+
+console.log(counter.increase());
+```
+
+<details>
+  <summary>Solution</summary>
+  <strong>
+  <pre>NaN
+  화살효 함수는 this 바인딩을 갖지 않기 때문에 call, apply, bind 메서드를 사용해도 화살표 함수 내부의 this를 교체할 수 없다.</pre>
+  </strong>
+</details>
+
+<br>

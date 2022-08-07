@@ -27,4 +27,11 @@
 
 <br>
 
+<pre>3. var 키워드로 선언한 전역변수와 let, const 키워드로 선언한 전역 변수는 각각 전역 확경 레코드의 어떤 레코드에 저장되는가?</pre>
+
+<details>
+<summary>Solution</summary>
+var 키워드 - 객체 환경 레코드(Object Environment Record)<br>
+let, const 키워드 - 선언적 환경 레코드(Declarative Environment Record)</details>
+
 

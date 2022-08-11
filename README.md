@@ -124,3 +124,13 @@
  - [Chapter 24 - 클로저](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week4/Chapter24/problem.md)<br>
  - [Chapter 25 - 클래스](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week4/Chapter25/problem.md)<br>
  - [Chapter 26 - ES6 함수의 추가 기능](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week4/Chapter26/problem.md)<br>
+
+ ### Week 5
+
+<br>
+
+ - [Chapter 33 - 7번째 데이터 타입 Symbol](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week5/Chapter33/problem.md)<br>
+ - [Chapter 34 - 이터러블](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week5/Chapter34/problem.md)<br>
+ - [Chapter 35 - 스프레드 문법](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week5/Chapter35/problem.md)<br>
+ - [Chapter 36 - 디스트럭처링 할당](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week5/Chapter36/problem.md)<br>
+ - [Chapter 37 - Set과 Map](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week5/Chapter37/problem.md)<br>

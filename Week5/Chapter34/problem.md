@@ -84,3 +84,20 @@ for (let item of obj) {
   <strong>TypeError: obj is not iterable</strong>
   <pre>obj는 인덱스로 프로퍼티 값에 접근할 수 있고 length 프로퍼티를 갖는 유사 배열 객체이다. 유사 배열 객체는 이터러블이 아닌 일반 객체이므로 for...of문으로 순회할 수 없다.</pre>
 </details>
+<br>
+<pre>4. 아래 코드가 에러가 나는 이유는?</pre>
+<pre>
+
+```js
+let test = {
+  0 : "Test",
+  1 : "World",
+  length : 2
+}
+```
+</pre>
+
+<details>
+<summary>Solution</summary>
+<strong>*Tip 인덱스와 length 프로퍼티가 있는 객체는 유사배열이라고 한다. </strong><br><br>
+<strong>일반 객체이므로 Symbol.iterator가 아니므로 에러가난다.</strong><br> 위코드를 Array.from 을 이용한다면 사용할 수 있다.

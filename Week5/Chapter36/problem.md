@@ -7,7 +7,7 @@
 const favSinger = {
   name : 'Shawn Mendes',
   age : 25,
-  ethnicity : 'Canada',
+  nationality : 'Canada',
   Hitsongs : {
     playList1 : 'Handwritten',
     playList2 : "Illuminate",

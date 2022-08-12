@@ -70,7 +70,7 @@ function intro() {
 ```
 </details>
 
-<pre>3. 아래 코드의 결과는? </pre>
+<pre>4. 아래 코드의 결과는? </pre>
 
 ```js
 const whiteWater = {

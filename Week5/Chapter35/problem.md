@@ -1,24 +1,22 @@
 # Chapter 35
 
-
 <pre>1. 아래 예상 출력 결과대로 나오는지 예상해보시고, 아니라면 어떻게 해줘야하는지 생각해봅시다.</pre>
 
 ```js
-var arr1 = [1,2];
-var arr2 = [3,4];
-var arr3 = [5,6];
+var arr1 = [1, 2];
+var arr2 = [3, 4];
+var arr3 = [5, 6];
 
 const answer1 = arr1.concat(arr2);
-const answer2 = [...answer1]
-answer2.splice(4,0, arr3);
+const answer2 = [...answer1];
+answer2.splice(4, 0, arr3);
 const answer3 = [...answer2];
 
-console.log(answer1) // 1. [1,2,3,4]
-console.log(answer2) // 2. [1,2,3,4,5,6]
-console.log(answer3) // 3. [1,2,3,4,5,6]
-console.log(answer2 === answer3) // 4. true
+console.log(answer1); // 1. [1,2,3,4]
+console.log(answer2); // 2. [1,2,3,4,5,6]
+console.log(answer3); // 3. [1,2,3,4,5,6]
+console.log(answer2 === answer3); // 4. true
 ```
-
 
 <details>
   <summary>Solution</summary>
@@ -64,10 +62,32 @@ console.log(intro("Kyle", 28)); // 안녕하세요 저는 Kyle이고 28살입니
 
 ```js
 function intro() {
-     const [name, age] = [...arguments]
-     return `안녕하세요 저는 ${name}이고 ${age}살입니다.`
+  const [name, age] = [...arguments];
+  return `안녕하세요 저는 ${name}이고 ${age}살입니다.`;
 }
 ```
+
+</details>
+
+<br>
+
+<pre>3. 아래 출력 값을 작성하고, 스프레드 문법을 사용하여 만들어보자. </pre>
+
+```js
+const obj = { x: 1, y: 2 };
+const copy = Object.assign(obj, { y: 3, z: 4 });
+console.log(copy);
+```
+
+<details>
+<summary>Solution</summary>
+<pre>출력 : {x: 1, y: 3, z: 4}</pre>
+
+```js
+const copy = { ...obj, ...{ y: 3, z: 4 } };
+console.log(copy); // {x: 1, y: 3, z: 4}
+```
+
 </details>
 
 <pre>4. 아래 코드의 결과는? </pre>

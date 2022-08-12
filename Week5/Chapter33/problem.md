@@ -29,6 +29,6 @@ console.log(sym2 === sym3); // 5.
   Symbol.keyFor 메소드 
   > 전역 심볼 레지스트리에 저장된 심볼 값의 키를 추출
   </pre>
-</ditails>
+</details>
 
 <br>

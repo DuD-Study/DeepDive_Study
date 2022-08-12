@@ -69,3 +69,32 @@ function intro() {
 }
 ```
 </details>
+
+<pre>3. 아래 코드의 결과는? </pre>
+
+```js
+const whiteWater = {
+  name: '흰색물',
+  attribute: '물',
+  color: '흰색'
+};
+
+const { color, ...water } = whiteWater;
+console.log(color);
+console.log(water);
+
+const { attribute, ...pureName } = water;
+console.log(attribute);
+console.log(pureName);
+```
+
+<details>
+<summary>Solution</summary>
+
+```js
+흰색 // whiteWater안에 color를 출력
+{ name: '흰색물', attribute: '물' } //color을 제외한 나머지 출력
+물 // attribute를 출력
+{ name: '흰색물' } //attribute를 제외하고 출력
+```
+</details>

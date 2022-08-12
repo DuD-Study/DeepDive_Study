@@ -54,3 +54,19 @@ console.log(obj[Symbol("a")]) // ?
 심벌 값을 프로퍼티 키로 사용하여 생성한 프로퍼티는 은닉된다.
 </pre>
 </details>
+<pre>3. 아래 코드가 에러가 나는 이유는?</pre>
+
+
+```js
+let test = Symbol("test");
+
+alert(test)
+```
+
+<details>
+<summary>Solution</summary>
+<pre>
+<strong>TypeError</strong><br>
+심볼은 자동 형 변환이 되지않아 에러가 납니다. 반드시 출력이 필요한 상황이라면 toString 메소드를 사용하여 보여줄 수 있습니다.
+</pre>
+</details>

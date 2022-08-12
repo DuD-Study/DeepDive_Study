@@ -49,5 +49,23 @@ console.log(answer2 === answer3) // 4. true
   ```
   4) 얕은 복사였기 때문에 답은 false
   </pre>
+  </details>
 
 <br>
+
+<pre>2. 아래 출력값을 나타내는 함수를 만들어보자 (매개변수, rest param을 사용하지않고 Spread문법사용)</pre>
+
+```js
+console.log(intro("Kyle", 28)); // 안녕하세요 저는 Kyle이고 28살입니다.
+```
+
+<details>
+<summary>Solution</summary>
+
+```js
+function intro() {
+     const [name, age] = [...arguments]
+     return `안녕하세요 저는 ${name}이고 ${age}살입니다.`
+}
+```
+</details>

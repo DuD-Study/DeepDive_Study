@@ -1,4 +1,5 @@
 # Chapter 34
+
 <pre>1. 아래의 빈칸을 채워보자</pre>
 <pre>일반객체는 이터러블이 아니여서 1.[     ] 문으로 순회할수 없으며,<br>2.[    ] 문법과 3.[     ]의 대상으로 사용할 수 없다</pre>
 
@@ -31,9 +32,8 @@ console.log(iterator.next()); // { value: undefined, done: true }
 const iterable = [1, 2, 3];
 const iterator = iterable[Symbol.iterator]();
 
-for (;;) 
-{
-  // 여기 안에 코드 
+for (;;) {
+  // 여기 안에 코드
 }
 ```
 
@@ -42,12 +42,12 @@ for (;;)
   <pre>for ... of문은 내부적으로 이터레이터의 next 메소드를 호출하여 이터러블을 순회하며
 반환한 이터레이터 result 객체의 value 프로퍼티를 for ... of문의 변수로 할당한다고 합니당.</pre>
 
-  ```js
+```js
 // 이터러블
-  const iterable = [1, 2, 3];
-  const iterator = iterable[Symbol.iterator]();
+const iterable = [1, 2, 3];
+const iterator = iterable[Symbol.iterator]();
 
-  for (;;) {
+for (;;) {
   // 이터레이터의 next 메서드를 호출하여 이터러블을 순회한다. 이때 next 메서드는 이터레이터 리절트 객체를 반환한다.
   const res = iterator.next();
 
@@ -57,9 +57,30 @@ for (;;)
   // 이터레이터 리절트 객체의 value 프로퍼티 값을 item 변수에 할당한다.
   const item = res.value;
   console.log(item); // 1 2 3
-  }
-  ```
-  
-</details>  
+}
+```
+
+</details>
 
 <br>
+
+<pre>3. Error가 발생하는 이유를 설명하시오.</pre>
+
+```js
+const obj = {
+  0: 1,
+  1: 2,
+  2: 3,
+  length: 3,
+};
+
+for (let item of obj) {
+  console.log(item); // Error
+}
+```
+
+<details>
+  <summary>Solution</summary>
+  <strong>TypeError: obj is not iterable</strong>
+  <pre>obj는 인덱스로 프로퍼티 값에 접근할 수 있고 length 프로퍼티를 갖는 유사 배열 객체이다. 유사 배열 객체는 이터러블이 아닌 일반 객체이므로 for...of문으로 순회할 수 없다.</pre>
+</details>

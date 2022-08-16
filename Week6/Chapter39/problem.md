@@ -6,8 +6,7 @@ DOM 컬렉션 객체입니다. 둘다 유사 배열 객체이면서 이터러블
 
 <details>
   <summary>Solution</summary>
-  <pre>HTMLCollection 객체는 노드 객체의 상태 변화를 실시간으로 반영하는 살아 있는(live)<br/>DOM 컬렉션 객체입니다. 반대로 NodeList는 노드 객체의 상태 변경을 실시간으로 반영하지 않고 결과값을<br/>반환할때 그 상태를 정적으로 유지하는 죽은 (non-live) 객체로 동작합니다.하지만 안전하게 사용하려면<br/>둘다 Spread syntax 혹은 Array.from을 통해서 배열로 만들어 사용하라 하네요. (page 699)
-  </pre>
+  <pre>HTMLCollection 객체는 노드 객체의 상태 변화를 실시간으로 반영하는 살아 있는(live)<br/>DOM 컬렉션 객체입니다. 반대로 NodeList는 노드 객체의 상태 변경을 실시간으로 반영하지 않고 결과값을<br/>반환할때 그 상태를 정적으로 유지하는 죽은 (non-live) 객체로 동작합니다.하지만 안전하게 사용하려면<br/>둘다 Spread syntax 혹은 Array.from을 통해서 배열로 만들어 사용하라 하네요. (page 699)</pre>
 </details>
 
 <br>

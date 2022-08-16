@@ -134,3 +134,13 @@
  - [Chapter 35 - 스프레드 문법](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week5/Chapter35/problem.md)<br>
  - [Chapter 36 - 디스트럭처링 할당](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week5/Chapter36/problem.md)<br>
  - [Chapter 37 - Set과 Map](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week5/Chapter37/problem.md)<br>
+
+<br>
+
+ ### Week 6
+
+<br>
+
+ - [Chapter 38 - 브라우저의 렌더링 과정](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week6/Chapter38/problem.md)<br>
+ - [Chapter 39 - DOM](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week6/Chapter39/problem.md)<br>
+ 

@@ -79,3 +79,12 @@ Element.prototype.lastElementChild
 </details>
 
 <br>
+
+<pre>6. HTMLCollection 객체의 부작용을 막기위한 방법은 무엇이 있을까요? </pre>
+
+<details>
+  <summary>Solution</summary>
+  <pre>querySelectorAll 메서드를 사용합니다 왜냐하면 DOM 컬렉션 객체인 NodeList 객체를 반환해주고 Nodelist 객체는 non-live 객체이다.</pre>
+</details>
+
+<br>

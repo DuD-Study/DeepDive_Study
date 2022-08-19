@@ -58,6 +58,7 @@ Element.prototype.lastElementChild
 <details>
 <summary>Solution</summary>
 위에 문제에서 설명한대로, getElementsByClassName이 반환하는 HTMLCollection 객체는 live DOM 컬렉션 객체이다. 그로인해 for문이 순환하는 과정에서 요소가 실시간으로 사라지므로 원하는 동작이 이루어 지지 않는다. 해결방안으로는 for문을 역순회하거나 while문으로 요소가 전부 사라질 때 까지 순회하는 방법이 있다.
+</details>
 
 <pre>4. 프로토타입 체인 관점에서, 파싱하여 객체화한 ul 요소 노드 객체에 바인딩된<br/>prototype을 모두 작성하세요.</pre>
 

@@ -31,3 +31,37 @@ Element.prototype.lastElementChild
 </details>
 
 <br>
+
+<pre>3. 다음 코드를 실행시 야기되는 문제점과 해결방안을 얘기해보자</pre>
+
+```js
+<head>
+  <style>
+    .red { color: red; }
+    .blue { color: blue; }
+  </style>
+</head>
+<html>
+  <body>
+    <ul id="fruits">
+      <li class="red">Apple</li>
+      <li class="red">Banana</li>
+      <li class="red">Orange</li>
+    </ul>
+    <script>
+      const $elems = document.getElementsByClassName('red');
+        for (let i = 0; i < $elems.length; i++) {
+        $elems[i].className = 'blue';
+      }
+    </script>
+  </body>
+</html>
+```
+<details>
+<summary>Solution</summary>
+위에 문제에서 설명한대로, getElementsByClassName이 반환하는 HTMLCollection 객체는 live DOM 컬렉션 객체이다. 그로인해 for문이 순환하는 과정에서 요소가 실시간으로 사라지므로 원하는 동작이 이루어 지지 않는다. 해결방안으로는 for문을 역순회하거나 while문으로 요소가 전부 사라질 때 까지 순회하는 방법이 있다.
+</details>
+
+<br>
+
+<pre>4. </pre>

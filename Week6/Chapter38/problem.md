@@ -23,3 +23,11 @@
 </details>
 
 <br>
+<pre>3. 브라우저의 요청에 의해 서버가 응답한 HTML 문서를 파싱하여 브라우저가 이해 할 수 있는 자료구조는? </pre>
+<details>
+  <summary>Solution</summary>
+  <strong>DOM</strong>
+  <pre>DOM은 HTML 문서를 파싱한 결과물. 파싱되는 과정은 666p를 참고해보자.</pre>
+</details>
+
+<br>

@@ -29,7 +29,6 @@ Element.prototype.lastElementChild
 
 <br>
 
-
 <pre>3. 다음 코드를 실행시 야기되는 문제점과 해결방안을 얘기해보자</pre>
 
 ```js
@@ -55,6 +54,7 @@ Element.prototype.lastElementChild
   </body>
 </html>
 ```
+
 <details>
 <summary>Solution</summary>
 위에 문제에서 설명한대로, getElementsByClassName이 반환하는 HTMLCollection 객체는 live DOM 컬렉션 객체이다. 그로인해 for문이 순환하는 과정에서 요소가 실시간으로 사라지므로 원하는 동작이 이루어 지지 않는다. 해결방안으로는 for문을 역순회하거나 while문으로 요소가 전부 사라질 때 까지 순회하는 방법이 있다.
@@ -70,7 +70,6 @@ Element.prototype.lastElementChild
 
 <br>
 
-
 <pre>5. Node.prototype.hasChildNodes 메서드는 자식 노드의 존재 유무에 따라 boolean을 반환하는데,<br>이때 텍스트 노드를 포함하여 자식 노드의 존재를 확인한다.<br>자식 노드 중에 텍스트 노드가 아닌 요소 노드가 존재하는지 확인할때 사용하는 프러퍼티를 작성하세요.</pre>
 
 <details>
@@ -85,6 +84,15 @@ Element.prototype.lastElementChild
 <details>
   <summary>Solution</summary>
   <pre>querySelectorAll 메서드를 사용합니다 왜냐하면 DOM 컬렉션 객체인 NodeList 객체를 반환해주고 Nodelist 객체는 non-live 객체이다.</pre>
+</details>
+
+<br>
+
+<pre>7. 정민이형은 왜이렇게 잘 생겼을까? </pre>
+
+<details>
+  <summary>Solution</summary>
+  <pre><strong> abcddef </strong> asdf </pre>
 </details>
 
 <br>

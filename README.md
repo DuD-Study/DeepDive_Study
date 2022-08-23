@@ -144,3 +144,17 @@
  - [Chapter 38 - 브라우저의 렌더링 과정](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week6/Chapter38/problem.md)<br>
  - [Chapter 39 - DOM](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week6/Chapter39/problem.md)<br>
  
+<br>
+
+ ### Week 7
+
+<br>
+
+ - [Chapter 42 - 비동기 프로그래밍](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week7/Chapter42/problem.md)<br>
+ - [Chapter 43 - Ajax](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week7/Chapter43/problem.md)<br>
+ - [Chapter 44 - REST API](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week7/Chapter44/problem.md)<br>
+ - [Chapter 45 - 프로미스](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week7/Chapter45/problem.md)<br>
+ - [Chapter 46 - 제너레이터와 async/await](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week7/Chapter46/problem.md)<br>
+ - [Chapter 47 - 에러처리](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week7/Chapter47/problem.md)<br>
+
+ 

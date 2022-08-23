@@ -9,3 +9,14 @@
 </details>
 
 <br>
+
+<pre>2. 자바스크립트 엔진은 한 번에 하나의 태스크만 실행할 수 있는 [    1    ] 방식으로 동작합니다.
+   그래서 하나의 태스크만 실행할 수 있기 때문에 시간이 걸리는 태스크 실행 시 [    2    ] 가 발생합니다. </pre>
+
+<details>
+  <summary>Solution</summary>
+  <strong>1. 싱글 스레드(single thread) 2. 블로킹(blocking)</strong>
+  <pre>자세한건 페이지 810</pre>
+</details>
+
+<br>

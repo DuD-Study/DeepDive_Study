@@ -42,3 +42,27 @@ PromiseGet("https://...").then(
 </details>
 
 <br>
+<pre>3. 코드를 예상해 보세요</pre>
+
+```js
+setTimeout(()=>console.log(1),0);
+
+Promise.resolve()
+.then(()=>console.log(2))
+.then(()=>console.log(3));
+```
+
+<details>
+  <summary>Solution</summary>
+  <pre>
+  <strong>2 -> 3 -> 1</strong><br>
+  프로미스의 후속 처리 메서드의 콜백 함수는 <strong>태스크 큐</strong>가 아니라 <strong>마이크 로태스크 큐</strong>에 저장되기 때문이다. 그 외의 비동기 함수의 콜백 함수나 이벤트 핸들러는 태스크 큐에 일시 저장된다.
+  마이크로테스크 큐에는 
+  process.nextTick()
+  promise callback
+  async functions
+  queueMicrotask 가 있다.
+  </pre>
+</details>
+
+<br>

@@ -20,3 +20,12 @@
 </details>
 
 <br>
+<pre>3. HTML 요소가 애니메이션 효과를 통해 움직이고 이벤트를 처리하기도 하고, HTTP요청을 통해 서버로부터 데이터를 가지고오면서 렌더링 하는건 무엇일까요? </pre>
+
+<details>
+  <summary>Solution</summary>
+  <pre>이벤트 루프
+  P.813 참고</pre>
+</details>
+
+<br>

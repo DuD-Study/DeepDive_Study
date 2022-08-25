@@ -23,3 +23,11 @@
 </details>
 
 <br>
+<pre>3. [ ]은 클라이언트와 서버 간의 HTTP 통신을 위한 텍스트 데이터 포맷이다.</pre>
+
+<details>
+  <summary>Solution</summary>
+  <pre>JSON</pre>
+</details>
+
+<br>

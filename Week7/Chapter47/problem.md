@@ -36,3 +36,16 @@ const error = new Error("invalid");
 </details>
 
 <br>
+
+
+<pre>3. 빈칸에 뭐가 들어갈지 생각해보세요.</pre>
+
+<pre>기본적으로 에러 처리를 구현하는 방법은 크게 두 가지가 있다. querySelector나 Array#find 메소드처럼 예외적인 상황이 발생하면 반환하는 값을 [  1   ]문이나 [   2   ] 또는 [   3   ]연산자를 통해 확인해서 처리하는 방법과 에러 처리 코드를 미리 등록해 두고 에러가 발생하면 에러 처리 코드로 점프하도록 하는 방법이 있고, try...catch...finally가 두번째 방법이다.</pre>
+
+<details>
+  <summary>Solution</summary>
+  <strong>1. if<br/>2. 단축평가<br/>3. 옵셔널 체이닝<br/>Page.888</strong>
+  
+</details>
+
+<br>

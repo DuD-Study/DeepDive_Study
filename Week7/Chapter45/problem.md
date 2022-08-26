@@ -66,3 +66,51 @@ Promise.resolve()
 </details>
 
 <br>
+
+<pre>4.아래 코드의 출력 값을 예측해보자</pre>
+
+```js
+const setTimeout1 = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            reject(1);
+            console.log(1);
+        }, 1000)
+    })
+}
+
+const setTimeout2 = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(2);
+            console.log(2);
+        }, 2000)
+    })
+}
+
+const setTimeout3 = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(3);
+            console.log(3);
+        }, 3000)
+    })
+}
+
+Promise.all([setTimeout1(), setTimeout2(), setTimeout3()])
+    .then(() => console.log("then"))
+    .catch(() => console.log("catch"))
+    .finally(() => console.log("finally"))
+```
+
+<details>
+<summary>Solution</summary>
+1 <br>
+catch <br>
+finally<br>
+2 <br>
+3
+
+<pre>Promise.all 메서드는 인수로 전달받은 배열의 프로미스가 하나라도 rejected 상태가 되면,<br>
+나머지 프로미스가 fulfilled 상태가 되는 것을 기다리지 않고 즉시 종료한다.</pre>
+</details>

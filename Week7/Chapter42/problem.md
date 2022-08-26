@@ -29,3 +29,16 @@
 </details>
 
 <br>
+
+<pre>4. 아래는 무엇을 설명하는 것인가?</pre>
+
+<pre><strong>이것</strong>은 객체가 저장되는 메모리 구조이다.<br>
+콜 스택의 요소인 실행 컨텍스트는 <strong>이것</strong>에 저장된 객체를 참조한다.<br>
+메모리에 값을 저장하려면 먼저 값을 저장할 메모리 공간의 크기를 결정해야한다.<br>
+객체는 원시 값과는 달리 크기가 정해져 있지 않으므로 할당해야할 메모리 공간의 크기를 런타임에 결정(동적 할당)해야 한다.<br>
+따라서 객체가 저장되는 메모리 공간인 <strong>이것</strong>은 구조화 되어있지 않다는 특징이 있다.</pre>
+
+<details>
+<summary>Solution</summary>
+<Strong>힙(heap)</Strong>
+</details>

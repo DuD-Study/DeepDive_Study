@@ -31,3 +31,15 @@
 </details>
 
 <br>
+
+<pre>4. 아래 문제를 풀어보자</pre>
+<pre>1.객체를 JSON 포맷의 문자열로 변환하는 메서드는?<br>
+2.JSON 포맷의 문자열을 객체로 변환하는 메서드는?</pre>
+
+<details>
+<summary>Solution</summary>
+<pre>
+1.JSON.stringify()<br>
+2.JSON.parse()
+</pre>
+</details>

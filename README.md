@@ -157,4 +157,12 @@
  - [Chapter 46 - 제너레이터와 async/await](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week7/Chapter46/problem.md)<br>
  - [Chapter 47 - 에러처리](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week7/Chapter47/problem.md)<br>
 
+ <br>
+
+ ### Week 8
+
+<br>
+
+ - [Chapter 48 - 모듈](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week8/Chapter48/problem.md)<br>
+ - [Chapter 49 - Babel과 Webpack을 이용한 ES6+/ES.NEXT 개발 환경 구축](https://github.com/DuD-Study/DeepDive_Study/blob/main/Week8/Chapter49/problem.md)<br>
  
